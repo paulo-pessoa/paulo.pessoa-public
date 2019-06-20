@@ -1,4 +1,3 @@
-fortune-teller:
-    config:
-        length: 5
-        words: "copulation,misallying,unstinted,countersinking,unmurmuring,baseplate,auricularly,unopportunistic,austrian,ectosteal,thrippence,proteolytic,boer,nonleguminou"
+config:
+    length: 5
+    words: "copulation,misallying,unstinted,countersinking,unmurmuring,baseplate,auricularly,unopportunistic,austrian,ectosteal,thrippence,proteolytic,boer,nonleguminou"
