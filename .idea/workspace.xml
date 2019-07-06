@@ -1,35 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3997db5b-416f-432f-9eb6-5b7b2163cbb7" name="Default Changelist" comment="wip">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/unnamed/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paulo.pessoa-public.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/src/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/src/Nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/src/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-autho/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-training-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-training-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-training-app/src/components/courses/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-training-app/src/components/courses/CoursesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-training-app/src/components/courses/ManageCoursePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-training-app/src/components/courses/ManageCoursePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-training-app/tools/apiServer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-training-app/tools/apiServer.js" afterDir="false" />
+    <list default="true" id="3997db5b-416f-432f-9eb6-5b7b2163cbb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/react-autho/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-autho/src/auth/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-autho/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-autho/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-autho/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-autho/src/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-autho/src/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-autho/src/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-autho/src/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-autho/src/Profile.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="C:\Users\PSP0317\IdeaProjects\paulo.pessoa-public\.idea\shelf/" />
@@ -63,92 +42,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-redux-training-app/src/redux/configureStore.js">
+        <entry file="file://$PROJECT_DIR$/react-autho/src/auth/Auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-redux-training-app/src/components/courses/ManageCoursePage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-redux-training-app/src/components/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-redux-training-app/src/components/common/Header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-redux-training-app/src/components/courses/CourseList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-redux-training-app/src/components/courses/CoursesPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="80" column="39" lean-forward="true" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-autho/src/Profile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-autho/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-578">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -157,6 +54,16 @@
         <entry file="file://$PROJECT_DIR$/react-autho/src/Nav.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-autho/src/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -165,12 +72,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-redux-training-app/src/redux/actions/courseActions.js">
+        <entry file="file://$PROJECT_DIR$/react-autho/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-autho/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-339">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react-autho/src/Profile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-autho/src/Callback.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -194,9 +124,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/react-redux-training-app/tools/apiServer.js" />
-        <option value="$PROJECT_DIR$/react-autho/src/Profile.js" />
         <option value="$PROJECT_DIR$/react-redux-training-app/src/components/courses/CoursesPage.js" />
         <option value="$PROJECT_DIR$/react-redux-training-app/src/components/courses/ManageCoursePage.js" />
+        <option value="$PROJECT_DIR$/react-autho/src/Home.js" />
+        <option value="$PROJECT_DIR$/react-autho/.env" />
+        <option value="$PROJECT_DIR$/react-autho/src/Nav.js" />
+        <option value="$PROJECT_DIR$/react-autho/src/auth/Auth.js" />
+        <option value="$PROJECT_DIR$/react-autho/src/App.js" />
+        <option value="$PROJECT_DIR$/react-autho/src/Profile.js" />
       </list>
     </option>
   </component>
@@ -235,6 +170,13 @@
               <item name="paulo.pessoa-public" type="462c0819:PsiDirectoryNode" />
               <item name="react-autho" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paulo.pessoa-public" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paulo.pessoa-public" type="462c0819:PsiDirectoryNode" />
+              <item name="react-autho" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,7 +221,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561692668381</updated>
-      <workItem from="1561692672667" duration="12719000" />
+      <workItem from="1561692672667" duration="18996000" />
     </task>
     <task id="LOCAL-00001">
       <created>1561695138826</created>
@@ -288,11 +230,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561695138828</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wip">
+      <created>1562420279842</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562420279842</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12719000" />
+    <option name="totallyTimeSpent" value="18996000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -305,22 +254,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
-      <window_info id="Favorites" sideWeight="0.5021097" side_tool="true" visible="true" weight="0.31879196" />
+      <window_info id="Favorites" sideWeight="0.5011494" side_tool="true" visible="true" weight="0.31879196" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.31879196" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885058" visible="true" weight="0.31879196" />
       <window_info id="Structure" order="1" sideWeight="0.50101835" side_tool="true" weight="0.22483222" />
       <window_info anchor="bottom" id="Terminal" sideWeight="0.4986577" weight="0.3045326" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5013423" side_tool="true" weight="0.3045326" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3838527" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3838527" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
@@ -517,6 +465,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="486" column="8" selection-start-line="486" selection-start-column="8" selection-end-line="486" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-redux-training-app/src/components/courses/CoursesPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="80" column="39" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-redux-training-app/src/components/courses/ManageCoursePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react-redux-training-app/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -527,23 +502,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+    <entry file="file://$PROJECT_DIR$/react-autho/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="486" column="8" selection-start-line="486" selection-start-column="8" selection-end-line="486" selection-end-column="8" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-autho/src/Profile.js">
+    <entry file="file://$PROJECT_DIR$/react-autho/src/Callback.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-autho/src/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-autho/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -553,29 +525,28 @@
     <entry file="file://$PROJECT_DIR$/react-autho/src/Nav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-redux-training-app/src/components/courses/CoursesPage.js">
+    <entry file="file://$PROJECT_DIR$/react-autho/src/auth/Auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="80" column="39" lean-forward="true" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-578">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-redux-training-app/src/components/courses/ManageCoursePage.js">
+    <entry file="file://$PROJECT_DIR$/react-autho/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-339">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-autho/src/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
