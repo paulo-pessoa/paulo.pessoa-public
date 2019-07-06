@@ -13,7 +13,7 @@ class CoursesPage extends React.Component {
 
 	state = {
 		redirectToAddCoursePage: false
-	}
+	};
 
 	componentDidMount() {
 		const { courses, authors, actions } = this.props;
@@ -73,7 +73,7 @@ CoursesPage.propTypes = {
 	authors: propTypes.array.isRequired,
 	actions: propTypes.object.isRequired,
 	loading: propTypes.bool.isRequired
-}
+};
 
 //this injects the state used/supported by this container component into the props, to be passed down to the view
 function mapStateToProps(state) {

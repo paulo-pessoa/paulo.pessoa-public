@@ -4,7 +4,7 @@ import { loadCourses, saveCourse } from "../../redux/actions/courseActions";
 import { loadAuthors } from "../../redux/actions/authorActions";
 import propTypes from "prop-types";
 import CourseForm from "./CourseForm";
-import { newCourse } from "../../tools/mockData";
+import { newCourse } from "../../../tools/mockData";
 import Spinner from "../common/Spinner";
 import { toast } from "react-toastify";
 
@@ -89,7 +89,7 @@ ManageCoursePage.propTypes = {
 	saveCourse: propTypes.func.isRequired,
 	errors: propTypes.object.isRequired,
 	history: propTypes.object.isRequired
-}
+};
 
 export function getCourseBySlug(courses, slug) {
 	return courses.find(course => course.slug === slug || null);
@@ -117,6 +117,6 @@ const mapDispatchToProps = {
 	loadCourses: loadCourses,
 	loadAuthors: loadAuthors,
 	saveCourse: saveCourse
-}
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(ManageCoursePage);
