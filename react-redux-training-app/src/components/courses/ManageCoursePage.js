@@ -9,7 +9,7 @@ import Spinner from "../common/Spinner";
 import { toast } from "react-toastify";
 
 //deconstructing props and rest operator for any other that has not been deconstructed (in this case, props itself)
-function ManageCoursePage({ courses, authors, loadAuthors, loadCourses, saveCourse, history, ...props }) {
+export function ManageCoursePage({ courses, authors, loadAuthors, loadCourses, saveCourse, history, ...props }) {
 
 	//using the spread operator here (not rest as above in the arguments list)
 	const [course, setCourse] = useState({ ...props.course });
@@ -87,7 +87,7 @@ ManageCoursePage.propTypes = {
 	loadCourses: propTypes.func.isRequired,
 	loadAuthors: propTypes.func.isRequired,
 	saveCourse: propTypes.func.isRequired,
-	errors: propTypes.object.isRequired,
+	errors: propTypes.object,
 	history: propTypes.object.isRequired
 };
 

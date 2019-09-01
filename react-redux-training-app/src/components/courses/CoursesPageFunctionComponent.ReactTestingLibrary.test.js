@@ -1,6 +1,7 @@
 import React from "react";
 import { cleanup, render } from "@testing-library/react";
 import CourseForm from "./CourseForm";
+import CoursesPageFunctionComponent from "./CoursesPageFunctionComponent";
 
 // afterEach(cleanup);
 
@@ -15,7 +16,7 @@ function renderCourseForm(args) {
   };
 
   const props = { ...defaultProps, ...args };
-  return render(<CourseForm {...props} />);
+  return render(<CoursesPageFunctionComponent {...props} />);
 }
 
 it("should render Add Course header", () => {

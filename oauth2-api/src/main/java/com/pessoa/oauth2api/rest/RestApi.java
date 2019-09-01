@@ -1,9 +1,14 @@
 package com.pessoa.oauth2api.rest;
 
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.security.Principal;
 
 
 @RestController
@@ -15,8 +20,15 @@ public class RestApi extends ResourceServerConfigurerAdapter
     }
 
     @RequestMapping("/private")
-    public String privateApi() {
-        return "{ \"message\": \"Hello from a private API\" }";
+    public String privateApi(UsernamePasswordAuthenticationToken token) {
+        String principal = token.getPrincipal().toString();
+        StringBuffer authorities = new StringBuffer();
+        for(GrantedAuthority authority : token.getAuthorities()){
+            authorities.append(authority);
+        }
+
+        String message = "Hello " + principal + " from private API. You have following roles " + authorities;
+        return "{ \"message\": \"" + message + "\" }";
     }
 
     @RequestMapping("/admin")

@@ -1,9 +1,11 @@
 import React from "react";
 import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+
+
 import * as courseActions from "../../redux/actions/courseActions";
 import * as authorActions from "../../redux/actions/authorActions";
 import propTypes from "prop-types";
-import { bindActionCreators } from "redux";
 import CourseList from "./CourseList";
 import { Redirect } from "react-router-dom";
 import Spinner from "../common/Spinner";
@@ -42,7 +44,6 @@ class CoursesPage extends React.Component {
 			toast.error("Delete failed. " + error.message, { autoClose: false });
 		}
 	};
-
 
 	render() {
 		return (
@@ -92,7 +93,8 @@ function mapStateToProps(state) {
 	}
 }
 
-//this injects the actions supported by this container component into the props, to be passed down to the view
+//this injects dispatch actions to be supported by this container component into the props.dispatch,
+//to be passed down to the view
 function mapDispatchToProps(dispatch) {
 	return {
 		actions: {

@@ -1,10 +1,13 @@
 export const CREATE_COURSE_SUCCESS = "CREATE_COURSE_SUCCESS";
 export const UPDATE_COURSE_SUCCESS = "UPDATE_COURSE_SUCCESS";
 export const CREATE_AUTHOR = "CREATE_AUTHOR";
+export const LOAD_COURSES = "LOAD_COURSES";
 export const LOAD_COURSES_SUCCESS = "LOAD_COURSES_SUCCESS";
+export const LOAD_AUTHORS = "LOAD_AUTHORS";
 export const LOAD_AUTHORS_SUCCESS = "LOAD_AUTHORS_SUCCESS";
 export const BEGIN_API_CALL = "BEGIN_API_CALL";
 export const API_CALL_ERROR = "API_CAL_ERROR";
+export const DELETE_COURSE_SUCCESS = "DELETE_COURSE_SUCCESS";
 
 // By convention, actions that end in "_SUCCESS" are assumed to have been the result of a completed
 // API call. But since we're doing an optimistic delete, we're hiding loading state.
