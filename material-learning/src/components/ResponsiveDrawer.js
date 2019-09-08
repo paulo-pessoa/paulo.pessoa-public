@@ -12,7 +12,6 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import MailIcon from '@material-ui/icons/Mail';
-import MenuIcon from '@material-ui/icons/Menu';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import {makeStyles, useTheme} from '@material-ui/core/styles';
@@ -89,7 +88,9 @@ function ResponsiveDrawer(props) {
 
     const drawer = (
         <div>
-            <div className={classes.toolbar}/>
+            <div className={classes.toolbar} >
+                <img style={{width:"100px", height:"100px" }} src={"https://conteudo.imguol.com.br/c/home/15/2019/08/15/25jul2019---jair-bolsonaro-visita-o-colegio-militar-da-policia-militar-v-cmpm-v-ten-cel-candido-jose-mariano-em-manaus-1565872909805_300x168.jpg"} />
+                </div>
             <Divider/>
             <List>
                 { Object.keys(navOptions).map((text, index) => (
@@ -123,7 +124,6 @@ function ResponsiveDrawer(props) {
                         onClick={handleDrawerToggle}
                         className={classes.menuButton}
                     >
-                        <MenuIcon/>
                     </IconButton>
                     <Typography variant="h6" noWrap>
                         Responsive drawer
