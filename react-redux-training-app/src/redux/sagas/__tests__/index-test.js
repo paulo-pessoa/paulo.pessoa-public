@@ -8,14 +8,15 @@ import {loadAuthorsSuccess} from "../../actions/authorActions";
 
 const mockAuthorApi = require('../../../api/authorApi');
 
-jest.mock("../../../api/authorApi", () => (
-    {
-        ...(jest.requireActual("../../../api/authorApi")),
-        getAuthors: () => {
-            return [{name: "Mr. Author"}]
-        }
-    }
-));
+// jest.mock("../../../api/authorApi", () => (
+//     {
+//         ...(jest.requireActual("../../../api/authorApi")),
+//         getAuthors: () => {
+//             return [{name: "Mr. Author"}]
+//         }
+//     }
+// ));
+// jest.mock("../../../api/authorApi");
 
 let authors;
 
