@@ -1,10 +1,10 @@
 /***
  Testing sagas using the correct approach
  ***/
-import {recordSaga} from "./recordSaga";
-import {beginApiCall} from "../../actions/apiStatusActions";
-import {loadAuthorsSaga} from "../index";
-import {loadAuthorsSuccess} from "../../actions/authorActions";
+import { recordSaga } from "./recordSaga";
+import { beginApiCall } from "../../actions/apiStatusActions";
+import { loadAuthorsSaga } from "../index";
+import { loadAuthorsSuccess, loadAuthorsFailure } from "../../actions/authorActions";
 
 const mockAuthorApi = require('../../../api/authorApi');
 
@@ -35,12 +35,16 @@ describe('testing saga using recordSaga', () => {
         });
 
         const action = {};
-        const sagaResult = await recordSaga(loadAuthorsSaga,action);
-        console.log(sagaResult);
-        expect(sagaResult).toContainEqual(beginApiCall);
+
+        const sagaRecordedActions = await recordSaga(loadAuthorsSaga,action);
+
+        console.log(sagaRecordedActions);
+        expect(sagaRecordedActions).toContainEqual(beginApiCall);
         expect(mockAuthorApi.getAuthors).toHaveBeenCalled();
         expect(mockAuthorApi.getAuthors).toHaveReturnedWith(authors);
-        expect(sagaResult).toContainEqual(loadAuthorsSuccess(authors));
+        expect(sagaRecordedActions).toContainEqual(loadAuthorsSuccess(authors));
+        // expect(sagaRecordedActions).toContainEqual(loadAuthorsFailure);
+
     });
 
 });

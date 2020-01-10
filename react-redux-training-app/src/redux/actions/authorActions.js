@@ -14,6 +14,13 @@ export function loadAuthorsSuccess(authors) {
 	};
 }
 
+export function loadAuthorsFailure(authors) {
+	return {
+		type: types.LOAD_AUTHORS_SUCCESS,
+		authors: authors
+	};
+}
+
 export function loadAuthors() {
 
 	// return function (dispatch) { //redux thunk injects dispatch here so we don't have to

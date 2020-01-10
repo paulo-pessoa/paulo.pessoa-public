@@ -1,22 +1,23 @@
 import {all, fork, put, takeEvery, call, select} from 'redux-saga/effects';
 import * as actionTypes from '../actions/actionTypes';
 import {deleteCourseSuccess, loadCoursesSuccess} from '../actions/courseActions';
-import {loadAuthorsSuccess} from "../actions/authorActions";
+import {loadAuthorsSuccess, loadAuthorsFailure} from "../actions/authorActions";
 import {beginApiCall} from "../actions/apiStatusActions";
 import {deleteCourse, getCourses} from "../../api/courseApi";
 import {getAuthors} from "../../api/authorApi";
 
 export function* loadAuthorsSaga(action) {
-    console.log("loading authors using saga", action);
+    // console.log("loading authors using saga", action);
     yield put(beginApiCall);
-    console.log("called beginApiCall", beginApiCall);
+    // console.log("called beginApiCall", beginApiCall);
     try{
         let authors = yield call(getAuthors);
-        console.log("called getAuthors", authors);
+        // console.log("called getAuthors", authors);
         yield put(loadAuthorsSuccess(authors));
-        console.log("put loadAuthorsSuccess")
+        // console.log("put loadAuthorsSuccess")
     }catch(error){
         console.log('loadAuthors saga failed ', { error } );
+        yield put(loadAuthorsFailure);
     }
 }
 
