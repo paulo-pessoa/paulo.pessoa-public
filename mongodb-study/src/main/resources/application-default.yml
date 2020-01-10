@@ -1,0 +1,7 @@
+#Local MongoDB config
+spring
+  data
+    mongodb
+      database:paulo
+      port:27017
+      host:localhost
