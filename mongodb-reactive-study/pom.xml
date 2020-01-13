@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.pessoa</groupId>
-    <artifactId>mongodb-study</artifactId>
+    <artifactId>mongodb-reactive-study</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mongodb-study</name>
     <description>Study project for mongodb using Spring Boot data</description>
@@ -27,7 +27,7 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+            <artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
         </dependency>
 
         <dependency>

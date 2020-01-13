@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/mongodb-reactive-study/mongodb-reactive-study.iml" filepath="$PROJECT_DIR$/mongodb-reactive-study/mongodb-reactive-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/paulo.pessoa-public.iml" filepath="$PROJECT_DIR$/paulo.pessoa-public.iml" />
     </modules>
   </component>
