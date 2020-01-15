@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mongodb-reactive-study/mongodb-reactive-study.iml" filepath="$PROJECT_DIR$/mongodb-reactive-study/mongodb-reactive-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongodb-reactive-transactional-study/mongodb-reactive-transactional-study.iml" filepath="$PROJECT_DIR$/mongodb-reactive-transactional-study/mongodb-reactive-transactional-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongodb-synchronous-transactional-study/mongodb-synchronous-transactional-study.iml" filepath="$PROJECT_DIR$/mongodb-synchronous-transactional-study/mongodb-synchronous-transactional-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/paulo.pessoa-public.iml" filepath="$PROJECT_DIR$/paulo.pessoa-public.iml" />
     </modules>
   </component>
